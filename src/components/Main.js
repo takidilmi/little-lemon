@@ -46,7 +46,7 @@ const Main = () => {
   }
 
   return (
-    <main className="main">
+    <main data-testid="main" className="main">
       <Routes>
         <Route path="/" element={<Header />} />
         <Route

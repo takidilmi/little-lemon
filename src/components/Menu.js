@@ -3,7 +3,6 @@ import recipes from "../recipes";
 import Swal from "sweetalert2";
 
 const Menu = () => {
-  //   console.log(recipes[0]);
   const handleOrder = (id) => {
     console.log(id);
 
@@ -35,7 +34,7 @@ const Menu = () => {
       });
   };
   return (
-    <div className="menu-container">
+    <div data-testid="menu" className="menu-container">
       <div className="menu-header">
         <h2>This weeks specials!</h2>
         <button>Online Menu</button>
