@@ -14,6 +14,9 @@ Please note: the only functionality working on this website besides the design i
 
 To get started with the project, follow these steps:
 
+@Halla24
+@https://github.com/Halla24
+
 1. Clone the repository: `git clone [repository URL]`
 2. Install the dependencies: `npm install`
 
